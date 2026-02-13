@@ -1,4 +1,4 @@
-//
+//A program to let the user choose a drink from a menu.
 #include <iostream>
 using namespace std;
 
@@ -14,9 +14,9 @@ int main()
 {	
 	double profit = 0;				//Total profit made by the machine
 	const int OPTIONS_SIZE = 5;		//Number of options available
-	char selectionChar;				//
-	int selection;					//
-	double moneyInserted;			//
+	char selectionChar;				//The character from user input
+	int selection;					//The selection index in the array the user selected
+	double moneyInserted;			//The ammount of money the user inputs
 	
 	//The preset array of options
 	Drink options[OPTIONS_SIZE] = { {"Cola", 0.75, 20}, {"Root Beer", 0.75, 20},
